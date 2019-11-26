@@ -6,4 +6,17 @@ h1 {
   font-weight: bold;
   font-size: 112px;
   line-height: 168px;
+  margin: 0;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 48px;
+}
+
+.container {
+  display: flex;
+  padding: 10% 10%;
+  flex-direction: column;
 }
