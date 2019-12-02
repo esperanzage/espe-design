@@ -4,21 +4,43 @@ html {
 
 h1 {
   font-weight: bold;
-  font-size: 112px;
+  font-size: 96px;
   line-height: 168px;
   margin: 0;
+  color: #2d2d2d;
 }
 
 p {
   font-weight: 300;
   font-size: 18px;
   line-height: 40px;
-  margin: 0;
+  margin: 0 0 24px 0;
+  color: #727272;
+}
+
+a {
+  margin-right: 32px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+
+  color: #0066ff;
 }
 
 .container {
   display: flex;
-  padding: 10% 10%;
+  padding: 10% 10% 0;
   flex-direction: column;
-  width: 30%;
+  width: 60%;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio-item {
 }
