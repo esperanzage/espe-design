@@ -4,17 +4,25 @@ html {
 }
 
 h1 {
-  font-weight: bold;
-  font-size: 6em;
-  line-height: 168px;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 6rem;
+  margin: 0;
+  color: #2d2d2d;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 4rem;
   margin: 0;
   color: #2d2d2d;
 }
 
 p {
   font-weight: 300;
-  font-size: 1.15em;
-  line-height: 2em;
+  font-size: 1.15rem;
+  line-height: 2rem;
   margin: 0 0 24px 0;
   color: #727272;
 }
@@ -25,18 +33,27 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 48px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05rem;
   text-decoration-line: underline;
 
   color: #0066ff;
 }
 
+.hello {
+  font-size: 6rem;
+}
+
 .container {
   display: flex;
-  padding: 10% 10% 0;
+  padding: 10% 10%;
   flex-direction: column;
-  width: 60%;
+  /* width: 80%; */
 }
+
+/* .portfolio-cont {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+} */
 
 .contact-links {
   display: flex;
@@ -46,14 +63,14 @@ a {
 .portfolio-item {
   display: grid;
   grid-template-areas: "img content" "img content" "img content";
-  grid-column-gap: 2.5em;
+  grid-column-gap: 2.5rem;
   align-items: center;
 
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   margin-bottom: 64px;
 
-  cursor: pointer;
+  /* cursor: pointer; */
   box-shadow: none;
   transition: 0.5s ease-in-out;
 }
@@ -62,4 +79,5 @@ a {
 }
 .portfolio-content {
   grid-area: content;
+  padding: 0 32px 0 0;
 }
