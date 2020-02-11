@@ -11,13 +11,13 @@ h1 {
   color: #1a1b1f;
 }
 
-.name {
+.highlight {
   background-image: -webkit-gradient(
     linear,
     left top,
-    left bottom,
-    from(#fffaa3),
-    to(#fffaa3)
+    right bottom,
+    from(#c0eefc),
+    to(#c1e8fa)
   );
 }
 
