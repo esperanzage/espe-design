@@ -1,5 +1,5 @@
 html {
-  font-family: "Avenir Next", -apple-system, sans-serif;
+  font-family: "Avenir Next", "Segoe UI", -apple-system, sans-serif;
   font-size: 16px;
 }
 
@@ -72,6 +72,7 @@ a {
 }
 
 .portfolio-item {
+  width: fit-content;
   display: grid;
   grid-template-areas: "img content" "img content" "img content";
   grid-column-gap: 2.5rem;
@@ -90,10 +91,31 @@ a {
 }
 .portfolio-content {
   grid-area: content;
-  padding: 0 2rem 0 0;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.portfolio-img {
+  object-fit: cover;
+  height: auto;
+  width: auto;
+  max-width: 100%;
 }
 
 .portfolio-link-soon {
   text-decoration: none;
   color: #949494;
+}
+
+@media (max-width: 1024px) {
+  .portfolio-item {
+    grid-template-areas: "img" "content";
+    grid-row-gap: 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .portfolio-content {
+    padding: 0 2rem 1rem 2rem;
+  }
 }
