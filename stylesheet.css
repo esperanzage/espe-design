@@ -1,28 +1,29 @@
 html {
-  font-family: Poppins;
+  font-family: "Avenir Next", sans-serif;
   font-size: 16px;
 }
 
 h1 {
   font-weight: 600;
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 6rem;
-  margin: 0;
-  color: #2d2d2d;
+  margin: 0 0 24px;
+  color: #1a1b1f;
 }
 
 h2 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.5rem;
-  line-height: 4rem;
+  line-height: 3rem;
   margin: 0;
-  color: #2d2d2d;
+  color: #1f1f20;
 }
 
 p {
+  max-width: 600px;
   font-weight: 300;
-  font-size: 1.15rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
   margin: 0 0 24px 0;
   color: #727272;
 }
@@ -38,14 +39,14 @@ a {
 
   color: #0066ff;
 }
-
+/* 
 .hello {
   font-size: 6rem;
-}
+} */
 
 .container {
   display: flex;
-  padding: 10% 10%;
+  padding: 10% 10% 0 10%;
   flex-direction: column;
   /* width: 80%; */
 }
@@ -68,16 +69,20 @@ a {
 
   border: 1px solid #e6e6e6;
   border-radius: 5px;
-  margin-bottom: 64px;
+  margin-bottom: 2rem;
 
   /* cursor: pointer; */
   box-shadow: none;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .portfolio-item:hover {
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.15);
 }
 .portfolio-content {
   grid-area: content;
-  padding: 0 32px 0 0;
+  padding: 0 2rem 0 0;
+}
+
+.portfolio-img {
+  max-width: 300px;
 }
