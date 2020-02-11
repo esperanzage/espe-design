@@ -116,6 +116,13 @@ a {
   }
 
   .portfolio-content {
-    padding: 0 2rem 1rem 2rem;
+    padding: 0 1.5rem 1rem 1.5rem;
+  }
+  .portfolio-img {
+    justify-self: stretch;
+  }
+
+  .container {
+    padding: 10% 5% 0 5%;
   }
 }
