@@ -1,0 +1,55 @@
+<div class="case-section">
+  <div>
+    <h3>Heuristic Evaluation</h3>
+    <p>
+      In order to find general usability problems in the current solution we did
+      a Heuristic Evaluation of the current tool. This helped us identify from a
+      general point of view, where we identified usability problems and allowed
+      us to take action in order to improve them.
+    </p>
+  </div>
+</div>
+<div class="case-section">
+  <div>
+    <h3>Demographic Survey</h3>
+    <p>
+      A demographic survey helped us identify who our users were and was a great
+      way to connect with them and start building a profile for our personas.
+    </p>
+  </div>
+</div>
+<div class="case-section">
+  <div>
+    <h3>Qualitative Interviews</h3>
+    <p>
+      From the survey we were able to contact users for interviews, these really
+      helped in understanding pain points and what users needed.
+    </p>
+  </div>
+</div>
+<div class="case-section">
+  <div>
+    <h3>Personas</h3>
+    <p>
+      Based on our Interviews and Demographic Survey we developed a Persona at
+      this stage in order to help us bring our knowledge of users and the
+      problems they were facing to the whole team, also as a clear view of what
+      we had to keep in mind when working on this project.
+    </p>
+  </div>
+  <img class="section-image" src="./imgs/financial-persona.png" />
+</div>
+<div class="case-section">
+  <div>
+    <h3>User Journey</h3>
+    <p>
+      Building a User Journey was a great way to align, understand and
+      communicate both with stakeholders and the team. It allowed us to see the
+      big picture and how it all came together, how our users were feeling and
+      which were the exact stages of the experience we needed to improve.
+    </p>
+  </div>
+</div>
+<h3>User Flows</h3>
+<h3>Sitemap</h3>
+<h3>Wireframes</h3>
