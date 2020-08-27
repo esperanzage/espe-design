@@ -162,8 +162,9 @@ a {
   position: relative;
   float: left;
   width: 33%;
-  height: 20%;
+  height: auto;
   overflow: hidden;
+  padding-bottom: 0;
 }
 
 .top ul li::before {
